@@ -48,7 +48,7 @@ echo $timestamp;
 echo date('Y/m/d', time());
 echo " ";
 //3日後のタイムスタンプを取得
-$nweek = time() + (7 * 21 * 60 * 60);
+$nweek = time() + (3* 24* 60 * 60);
 //3日後の日時を取得
 echo date('Y/m/d',$nweek);
 ?>
